@@ -1,0 +1,132 @@
+.page-login .login-header {
+    position: relative;
+    width: 980px;
+    height: auto;
+    margin: 40px auto 30px;
+}
+
+.page-login .login-header .logo {
+    background-image: url(//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-retina.b95a7dd.png);
+    background-position: 0 !important;
+    background-size: contain !important;
+    width: 82px;
+    height: 54px;
+    display: block;
+}
+
+.page-login .login-panel {
+    margin: 0 auto 70px;
+    width: 980px;
+    display: flex;
+}
+
+.page-login .login-panel .banner {
+    margin-right: 115px;
+}
+
+.page-login .login-panel .form {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    margin-top: 70px;
+}
+
+.page-login .login-panel .form .tips {
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 26px;
+    border: 1px solid #f5d8a7;
+    border-radius: 2px;
+    background: #fff6db;
+    font-size: 12px;
+}
+
+.page-login .login-panel .form .tips > i {
+    position: relative;
+    color: red;
+}
+
+.page-login .login-panel .form .tips > i:after {
+    position: absolute;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    font-family: iconfont;
+    font-style: normal;
+    content: "\e6c6";
+    font-size: 14px;
+    top: 0;
+    left: -17px;
+}
+
+.page-login .login-panel .form em {
+    font-style: normal;
+    float: right;
+}
+
+.page-login .login-panel .el-input__inner {
+    margin-top: 10px;
+    text-indent: 20px;
+}
+
+.page-login .login-panel .foot {
+    margin-top: 10px;
+}
+
+.page-login .login-panel .foot b {
+    float: right;
+}
+
+.page-login .login-panel .profile:after {
+    font-family: iconfont;
+    content: "\e75f";
+    font-style: normal;
+    top: 20px;
+    left: 10px;
+    position: absolute;
+    font-size: 14px;
+}
+
+.page-login .login-panel .password:after {
+    font-family: iconfont;
+    content: "\e658";
+    font-style: normal;
+    top: 20px;
+    left: 10px;
+    position: absolute;
+    font-size: 14px;
+}
+
+
+.page-login .login-panel .verification:before {
+    font-family: iconfont;
+    content: "\e623";
+    font-style: normal;
+    top: 20px;
+    left: 10px;
+    position: absolute;
+    font-size: 14px;
+}
+
+.page-login .login-panel .btn-login {
+    color: #fff;
+    background-color: #2db3a6;
+    border: none;
+    padding: 12px 15px;
+}
+
+.page-login .login-panel .codeImg{
+    position: relative;
+    top: -36px;
+    left: 190px;
+    overflow: hidden;
+    user-select: none;
+    height: 35px;
+}
+
+.page-login .login-panel .codeImg img{
+    width: 80px;
+    height: 100%;
+    display: block;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}

@@ -1,0 +1,88 @@
+.m-comment-list{
+    background-color: #fff;
+    padding: 20px 20px 0;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.m-comment-list ul li{
+    list-style: none;
+}
+
+.comment{
+    margin-left: -30px;
+}
+
+.m-comment-list ul li dl{
+    border-bottom: 1px solid #E5E5E5;
+    margin-bottom: 25px;
+    padding: 10px 0;
+}
+
+.m-comment-list ul li dd:nth-child(1){
+    padding-right: 15px;
+}
+
+.m-comment-list ul li dd:nth-child(2){
+    flex: 1;
+}
+
+.user-header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+}
+.m-comment-list .el-rate__icon{
+    font-size: 10px;
+}
+
+.section dd:nth-child(1) img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.section dd:nth-child(2) {
+    flex: 1;
+    margin-left: 25px;
+}
+
+.section dd > h4 {
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 480px;
+    font-size: 18px;
+    color: #222;
+    font-weight: 500;
+    height: 28px;
+    line-height: 22px;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.section dd > p {
+    font-size: 14px;
+    color: #666;
+    height: 17px;
+    line-height: 17px;
+    margin-bottom: 22px;
+}
+
+.comment-content{
+    position: relative;
+    top: 10px;
+}
+
+.comment-time{
+    font-size: 12px;
+    color: #999;
+    position: relative;
+    top: -32px;
+}

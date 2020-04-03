@@ -1,0 +1,22 @@
+.m-detail-list {
+    margin-top: 34px;
+}
+
+.m-detail-list h3 {
+    margin: 8px 0;
+}
+
+.m-detail-list ul {
+    background-color: #fff;
+    padding: 20px 20px 0;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #E5E5E5;
+    overflow: hidden;
+}
+.m-detail-list ul li{
+    list-style: none;
+}
+.m-detail-list .add-goods{
+    float: right;
+}

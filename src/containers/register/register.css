@@ -1,0 +1,123 @@
+.page-register .header {
+    border-bottom: 2px solid #2bb8aa;
+    min-width: 980px;
+    color: #666;
+}
+
+.page-register .header header {
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 980px;
+}
+
+.page-register .header header .site-logo {
+    display: inline-block;
+    width: 128px;
+    height: 36px;
+    text-indent: -9999px;
+    background-image: url("../../assets/images/shuaituan_logo_2.png");
+    background-size: 100% 100%;
+}
+
+.page-register .header header .login {
+    float: right;
+}
+
+.page-register .header header .bold {
+    font-style: normal;
+}
+
+.page-register > section {
+    margin: 0 auto 30px;
+    padding-top: 30px;
+    width: 980px;
+    min-height: 300px;
+    padding-right: 550px;
+    box-sizing: border-box;
+}
+
+.page-register > section .phone-item {
+    position: relative;
+}
+
+/*.page-register > section .code-item{
+    margin-top: -30px;
+}*/
+
+.page-register > section .getCode {
+    position: absolute;
+    top: 2px;
+    left: 228px;
+    height: 34px;
+}
+
+.page-register > section .status {
+    font-size: 12px;
+    margin-left: 20px;
+    color: #e6a23c;
+}
+
+.page-register > section .error {
+    color: red;
+}
+
+.ywz_zhuce_huixian {
+    float: left;
+    background: #d6d3d3;
+    width: 104px;
+    height: 5px;
+    margin-top: 5px;
+    _margin-top: 0px;
+    margin-left: 5px;
+    _height: 2px;
+    font-size: 0px;
+    border-radius: 2px;
+}
+
+.ywz_zhuce_hongxianwenzi {
+    float: left;
+    width: 105px;
+    margin-left: 5px;
+    text-align: center;
+    color: #b0adad;
+    font-size: 12px;
+}
+
+.ywz_zhuce_hongxian {
+    float: left;
+    background: #ff3300;
+    width: 104px;
+    height: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    _margin-top: 0px;
+    _height: 2px;
+    font-size: 0px;
+    border-radius: 2px;
+}
+
+.ywz_zhuce_hongxian2 {
+    float: left;
+    background: #099;
+    width: 104px;
+    height: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    _margin-top: 0px;
+    _height: 2px;
+    font-size: 0px;
+    border-radius: 2px;
+}
+
+.ywz_zhuce_hongxian3 {
+    float: left;
+    background: #060;
+    width: 104px;
+    height: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    _margin-top: 0px;
+    _height: 2px;
+    font-size: 0px;
+    border-radius: 2px;
+}
